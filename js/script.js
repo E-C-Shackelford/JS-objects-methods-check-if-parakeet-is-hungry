@@ -21,3 +21,9 @@ bird.eat = function () {
     console.log("Nom nom nom nom nom");
   }
 };
+
+bird.eat();
+console.log(bird.isHappy());
+
+bird.eat();
+console.log(bird.isHappy());
